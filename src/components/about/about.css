@@ -21,13 +21,11 @@
 .about_me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
 }
 
-.about_me-image:hover {
+/* .about_me-image:hover {
   transform: rotate(0);
-}
+} */
 
 .about_cards {
   display: grid;

@@ -11,10 +11,9 @@ const App = () => {
   return (
       <>
          <Header />
-         <Nav />
          <About />
+         <Nav />
          <Experience />
-        
          <Portfolio />
          <Contact />
          <Testimonials />
