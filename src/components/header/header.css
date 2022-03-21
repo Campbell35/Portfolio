@@ -41,8 +41,12 @@ header {
   position: absolute;
   left: calc(45% - 11rem);
   margin-top: 4rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+img {
+  height: 100%;
 }
 
 /* ======================== SCROLL DOWN=========== */
@@ -70,5 +74,8 @@ header {
   .header_socials,
   .scroll_down {
     display: none;
+  }
+  img {
+    width: 100%;
   }
 }
