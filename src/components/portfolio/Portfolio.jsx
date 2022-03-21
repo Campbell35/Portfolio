@@ -14,25 +14,27 @@ const data = [
      id: 1,
      image: IMG1,
      title: 'Drum Pad ',
-     github: 'https://github.com'
+     github: 'https://github.com/Campbell35/Drum-pad',
+     live: 'https://beat-pad.netlify.app/'
    },
    {
      id: 2,
      image: IMG2,
      title: 'Note Finder',
-     github: 'https://github.com'
+     github: 'https://github.com/Campbell35/Note-Finder',
+     live: 'https://note-finder.netlify.app/'
    },
    {
      id: 3,
      image: IMG3,
      title: 'Recommender App',
-     github: 'https://github.com'
+     github: 'https://github.com/harakeke-2022/rcmndr/tree/dev'
    },
    {
      id: 4,
      image: IMG4,
      title: 'Barkmates',
-     github: 'https://github.com'
+     github: 'https://github.com/harakeke-2022/Barkmate'
    },
 
 ]
@@ -44,7 +46,7 @@ const Portfolio = () => {
 
      <div className='container portfolio_container'>
        {
-         data.map(({id, image, title, github}) => {
+         data.map(({id, image, title, github, live}) => {
            return (
              <article key={id} className='portfolio_item'>
          <div className="portfolio_item-image">
@@ -52,6 +54,7 @@ const Portfolio = () => {
            <h3>{title}</h3>
            <div className='portfolio_item-cta'>
              <a href={github} className='btn'>Github</a>
+             <a href={live} className='btn'>Live Version</a>
            </div>
          </div>
        </article>
