@@ -6,6 +6,7 @@ import IMG1 from '../../assets/IMG1.png'
 import IMG2 from '../../assets/IMG2.png'
 import IMG3 from '../../assets/IMG3.png'
 import IMG4 from '../../assets/IMG4.png'
+import IMG5 from '../../assets/IMG5.png'
 
 
 
@@ -36,6 +37,12 @@ const data = [
      title: 'Barkmates',
      github: 'https://github.com/harakeke-2022/Barkmate'
    },
+   {
+     id: 5,
+     image: IMG5,
+     title: 'ChordFinder',
+     github: 'https://github.com/Campbell35/ChordFinder'
+   }
 
 ]
 const Portfolio = () => {
